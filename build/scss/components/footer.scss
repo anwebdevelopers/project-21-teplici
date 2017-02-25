@@ -1,0 +1,164 @@
+.footer__box {
+    padding: 50px 0 ;
+    background: #7da500 url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center 0;
+}
+.footer__form {
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 30px 45px 45px 45px;
+    border-radius: 20px;
+    background-color: transparentize(#4a9926, .1);
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        legend {
+            display: block;
+            width: 100%;
+            font-size: rem(20px);
+            text-align: center;
+            color: #fff;
+            font-weight: 300;
+
+            b {
+                display: block;
+                margin: 0 0 8px 0;
+                font-size: rem(28px);
+                font-family: 'Roboto Slab';
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+        input {
+            display: block;
+            margin: 18px auto 0 auto;
+            padding: 18px 20px;
+            width: 100%;
+            max-width: 434px;
+            background-color: #fff;
+            border: 3px solid $tcg;
+            border-radius: 30px;
+            outline: none;
+            transition: border-color .3s ease;
+            font-size: rem(18px);
+            &hover, &:focus {
+                border-color: $orange;
+            }
+        }
+    }
+    button {
+        display: block;
+        margin: 18px auto 0 auto;
+        padding: 12px 20px;
+        width: 100%;
+        max-width: 434px;
+        border-radius: 30px;
+        outline: none;
+        font-size: rem(22px);
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $orange;
+        border: none;
+        border-bottom: 4px solid #bd4821;
+        background-image: linear-gradient(to bottom, #fa990e, #ea5725);
+        &:hover, &:active, &:focus {
+            padding: 14px 20px 12px 20px;
+            border-bottom: 2px solid #bd4821;
+            background-image: linear-gradient(to bottom, darken(#fa990e, 5%), darken(#ea5725, 5%));
+        }
+
+    }
+}
+.footer__bottom-line {
+    padding: 10px 0;
+    background-color: #4d9419;
+    text-align: center;
+}
+.footer__logo {
+    img {
+        width: 341px;
+        height: 83px;
+    }
+}
+.footer__phone {
+    font-size: rem(24px);
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+.popup-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: transparentize(#4a9926, .1);
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        legend {
+            display: block;
+            width: 100%;
+            font-size: rem(20px);
+            text-align: center;
+            color: #fff;
+            font-weight: 300;
+
+            b {
+                display: block;
+                margin: 0 0 8px 0;
+                font-size: rem(20px);
+                font-family: 'Roboto Slab';
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+        input {
+            display: block;
+            margin: 18px auto 0 auto;
+            padding: 14px 20px;
+            width: 100%;
+            max-width: 434px;
+            background-color: #fff;
+            border: 3px solid $tcg;
+            border-radius: 30px;
+            outline: none;
+            transition: border-color .3s ease;
+            font-size: rem(18px);
+            &hover, &:focus {
+                border-color: $orange;
+            }
+        }
+    }
+    button[type="submit"] {
+        display: block;
+        margin: 18px auto 0 auto;
+        padding: 8px 20px;
+        width: 100%;
+        max-width: 434px;
+        border-radius: 30px;
+        outline: none;
+        font-size: rem(22px);
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $orange;
+        border: none;
+        border-bottom: 4px solid #bd4821;
+        background-image: linear-gradient(to bottom, #fa990e, #ea5725);
+        &:hover, &:active, &:focus {
+            padding: 10px 20px 8px 20px;
+            border-bottom: 2px solid #bd4821;
+            background-image: linear-gradient(to bottom, darken(#fa990e, 5%), darken(#ea5725, 5%));
+        }
+
+    }
+}

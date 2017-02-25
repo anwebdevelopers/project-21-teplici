@@ -1,0 +1,70 @@
+.technology {
+    padding: 40px 0 10px 0;
+    background: url(../img/technology-bg.jpg);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.technology__wrapper {
+    @extend .container;
+    @extend .clearfix;
+}
+.technology__title {
+    margin: 0 0 60px 0;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    line-height: 1;
+    h1, h2 {
+        margin: 0;
+        font-size: rem(45px);
+    }
+}
+.technology__left-col {
+    float: left;
+    width: 50%;
+}
+.technology__right-col {
+    float: right;
+    width: 50%;
+}
+.technology__img {
+    position: relative;
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: -220px;
+        bottom: 91px;
+        width: 327px;
+        height: 275px;
+        background-image: url(../img/technology-img-before.png);
+    }
+}
+.technology__advantages {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 100px;
+    list-style: none;
+}
+.technology__advantages-item {
+    position: relative;
+    margin: 0 0 25px 0;
+    font-size: rem(20px);
+    line-height: 1.2;
+    &:before {
+        content: '';
+        position: absolute;
+        left: -50px;
+        top: 5px;
+        background-image: url(../img/sprites.png);
+        background-position: -416.93939208984375px -320.9605712890625px ;
+    	width: 39px;
+    	height: 39px;
+    }
+    .red, .green {
+        font-style: italic;
+    }
+}

@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('../fonts/subset-RobotoSlab-Bold.eot');
+	src: url('../fonts/subset-RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-RobotoSlab-Bold.woff') format('woff'),
+		url('../fonts/subset-RobotoSlab-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/subset-Roboto-Light.eot');
+	src: url('../fonts/subset-Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-Roboto-Light.woff') format('woff'),
+		url('../fonts/subset-Roboto-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/subset-Roboto-Regular.eot');
+	src: url('../fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-Roboto-Regular.woff') format('woff'),
+		url('../fonts/subset-Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/subset-Roboto-Italic.eot');
+	src: url('../fonts/subset-Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-Roboto-Italic.woff') format('woff'),
+		url('../fonts/subset-Roboto-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/subset-Roboto-Medium.eot');
+	src: url('../fonts/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-Roboto-Medium.woff') format('woff'),
+		url('../fonts/subset-Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@import "bourbon";
+@import "components/vars.scss";
+@import "components/normalize.scss";
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	//font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	color: #111;
+	background-color: #fff;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+.red {
+	color: $tcr;
+}
+.green {
+	color: $tcg;
+}
+a {
+	outline: none !important;
+}
+
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/technology.scss";
+@import "components/advantages.scss";
+@import "components/characteristics.scss";
+@import "components/about.scss";
+@import "components/steps.scss";
+@import "components/reviews.scss";
+@import "components/footer.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/media.scss";
+
+//Load Libs SASS
+@import "html/libs/animate/animate.sass";
+@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+@import "html/libs/magnific-popup/dist/magnific-popup";

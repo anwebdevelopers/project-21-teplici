@@ -1,0 +1,100 @@
+.arrow-left-gray, .arrow-left-orange, .arrow-right-gray, .arrow-right-orange, .bant, .header-icon-1, .header-icon-2, .header-icon-3, .hit, .list, .prichina-1, .prichina-2, .prichina-3, .prichina-4, .prichina-5, .vetochka{
+	background: url(sprites.png) no-repeat;
+}
+
+.arrow-left-gray{
+	background-position: -213.96588134765625px -268.981201171875px ;
+	width: 49px;
+	height: 80px;
+}
+
+.arrow-left-orange{
+	background-position: 0 -377.9744873046875px ;
+	width: 42px;
+	height: 60px;
+}
+
+.arrow-right-gray{
+	background-position: -280.90692138671875px -268.8568115234375px ;
+	width: 49px;
+	height: 80px;
+}
+
+.arrow-right-orange{
+	background-position: -56.93951416015625px -377.95867919921875px ;
+	width: 42px;
+	height: 60px;
+}
+
+.bant{
+	background-position: -319.95947265625px -3.97222900390625px ;
+	width: 146px;
+	height: 124px;
+}
+
+.header-icon-1{
+	background-position: -412.93939208984375px -261.94158935546875px ;
+	width: 47px;
+	height: 47px;
+}
+
+.header-icon-2{
+	background-position: -347.94049072265625px -262.947265625px ;
+	width: 51px;
+	height: 47px;
+}
+
+.header-icon-3{
+	background-position: -351.94989013671875px -321.97332763671875px ;
+	width: 44px;
+	height: 46px;
+}
+
+.hit{
+	background-position: -93.91424560546875px -259.93280029296875px ;
+	width: 100px;
+	height: 96px;
+}
+
+.list{
+	background-position: -416.93939208984375px -320.9605712890625px ;
+	width: 39px;
+	height: 39px;
+}
+
+.prichina-1{
+	background-position: 0 -253.9720458984375px ;
+	width: 74px;
+	height: 100px;
+}
+
+.prichina-2{
+	background-position: -233.9703369140625px -139.97689819335938px ;
+	width: 100px;
+	height: 100px;
+}
+
+.prichina-3{
+	background-position: -126.923828125px -134.93844604492188px ;
+	width: 83px;
+	height: 100px;
+}
+
+.prichina-4{
+	background-position: -376.95269775390625px -144.95062255859375px ;
+	width: 81px;
+	height: 100px;
+}
+
+.prichina-5{
+	background-position: -1px -122.97052001953125px ;
+	width: 104px;
+	height: 100px;
+}
+
+.vetochka{
+	background-position: 0 0;
+	width: 284px;
+	height: 106px;
+}
+
